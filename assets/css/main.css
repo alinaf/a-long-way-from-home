@@ -2667,11 +2667,11 @@ button:disabled,
 
 .flex.flex-2 .flex-item {
 	-ms-flex: 0 1 auto;
-	-ms-flex-preferred-size: 48%;
-	-moz-flex-basis: 48%;
-	-webkit-flex-basis: 48%;
-	-ms-flex-basis: 48%;
-	flex-basis: 48%;
+	-ms-flex-preferred-size: 48.5%;
+	-moz-flex-basis: 48.5%;
+	-webkit-flex-basis: 48.5%;
+	-ms-flex-basis: 48.5%;
+	flex-basis: 48.5%;
 }
 
 .flex.flex-2 .flex-item.left {
@@ -2679,6 +2679,10 @@ button:disabled,
 }
 
 @media screen and (max-width: 980px) {
+
+	.rectangle {
+		display: none;
+	}
 
 	.flex {
 		-ms-flex-wrap: wrap;
@@ -2719,6 +2723,10 @@ button:disabled,
 .wrapper {
 	padding: 4em 0 4em 0;
 }
+
+/*.final {
+	padding-bottom: 0em;
+}*/
 
 .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
 	color: #20193a;
@@ -3130,12 +3138,23 @@ body {
 
 /* Highlights */
 
+/*.content h3 {
+	border-top: 6px solid #20193a;
+}*/
+
+.rectangle {
+  height: 7px;
+  width: 40px;
+  background-color: #20193a;
+  margin-bottom: 10px;
+}
+
 .yellowlight {
     background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #f7e799 50%);
 }
 
 .pinklight {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #dd8089 65%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgb(221, 128, 137, 0.8) 65%);
 }
 
 .peachlight {
@@ -3147,7 +3166,7 @@ body {
 }
 
 .lightbluelight {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #4c8dc3 65%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgb(76, 141, 195, 0.8) 65%);
 }
 
 .purplelight {
