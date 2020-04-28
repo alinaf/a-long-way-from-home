@@ -2661,8 +2661,8 @@ button:disabled,
 }
 
 .flex.flex-2 {
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .flex.flex-2 .flex-item {
@@ -3271,9 +3271,9 @@ body {
 
 			/* Main */
 
-			#one .inner {
+		/*	#one .inner {
 				margin-bottom: 2em;
-			}
+			}*/
 
 			#one .flex-item {
 				display: -ms-flexbox;
