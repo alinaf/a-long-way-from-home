@@ -1,12 +1,20 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico|Playfair+Display|Satisfy|Abhaya+Libre";
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap')
 /* Colors
-#f7e799, #dd8089, #ff9d92, #276fa7, #4c8dc3, #403c86, #20193a
+#f7e799: yellow;
+#dd8089: pink;
+#ff9d92: peach;
+#276fa7: blue;
+#4c8dc3: light blue;
+#403c86: purple;
+#20193a: dark purple;
 */
 
-
+/*
 @font-face {
    font-family: FivoBold;
    src: url(FivoSans-Bold.otf);
@@ -37,7 +45,7 @@
    font-family: FivoOblique;
    src: url(FivoSans-Bold-Oblique.otf);
 }
-
+*/
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -1700,7 +1708,7 @@
 	}
 
 		a:hover {
-			color: #25a2c3;
+			color: #403c86;
 		}
 
 	strong, b {
@@ -1717,16 +1725,16 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3dab9b;
-		font-weight: 700;
-		font-family: FivoOblique, sans-serif;
+		color: #20193a;
+		font-weight: 200;
+		font-family: 'Oswald', sans-serif;
 		text-transform: uppercase;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			/*color: inherit;*/
 			text-decoration: none;
 		}
 
@@ -2682,7 +2690,7 @@
 	}
 
 		.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
-			color: #69cff6;
+			color: #20193a;
 		}
 
 		.wrapper h1 {
@@ -2690,12 +2698,13 @@
 		}
 
 		.wrapper h3 {
-			font-size: 1.5em;
-			font-family: FivoOblique, sans-serif;
+			font-size: 2em;
+			font-family: Oswald, sans-serif;
+			font-weight: 200;
 		}
 
 		.wrapper.style1 {
-			background: #69cff6;
+			background: #20193a;
 			color: rgba(255,255,255,.8);
 		}
 
@@ -2808,7 +2817,7 @@
 	}
 		#header .logo {
 			color: rgba(0, 0, 0, 0.75);
-			font-family: 'Playfair Display', serif;
+			font-family: 'Oswald', serif;
 			font-weight: bold;
 			font-size: 1.25em;
 			letter-spacing: 2px;
@@ -2824,7 +2833,7 @@
 		}
 
 		.signature h3 {
-			font-family: FivoRegularOblique, sans-serif;
+			font-family: Oswald, sans-serif;
 		}
 
 		#header nav {
@@ -3304,7 +3313,7 @@
 
 	#footer {
 		padding: 2em 0 1em 0;
-		background: #65893a;
+		background: #20193a;
 		text-align: center;
 		color: rgba(255,255,255, 0.5);
 		font-size: .85em;
@@ -3319,10 +3328,10 @@
 			color: #f6755e;
 		}
 
-		#footer a {
+		/*#footer a {
 			color: #a5c67a;
 			text-decoration: none;
-		}
+		}*/
 
 		#footer ul li {
 			padding: 0 2em;
