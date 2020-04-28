@@ -2,8 +2,9 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico|Playfair+Display|Satisfy|Abhaya+Libre";
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap')
+/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+*/@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 /* Colors
 #f7e799: yellow;
 #dd8089: pink;
@@ -1655,7 +1656,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 /* Type */
 
 body, input, select, textarea {
-	color: #767d85;
+	/*color: #767d85;*/
 	font-family: "Open Sans", Arial, Helvetica, sans-serif;
 	font-size: 13pt;
 	font-weight: 300;
@@ -1665,7 +1666,7 @@ body, input, select, textarea {
 @media screen and (max-width: 1680px) {
 
 	body, input, select, textarea {
-		font-size: 11pt;
+		font-size: 12pt;
 	}
 
 }
@@ -1673,7 +1674,7 @@ body, input, select, textarea {
 @media screen and (max-width: 1280px) {
 
 	body, input, select, textarea {
-		font-size: 11pt;
+		font-size: 12pt;
 	}
 
 }
@@ -1726,8 +1727,8 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
 	color: #20193a;
-	font-weight: 200;
-	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
 	text-transform: uppercase;
 	line-height: 1.5;
 	margin: 0 0 1em 0;
@@ -2728,14 +2729,14 @@ button:disabled,
 }
 
 .wrapper h3 {
-	font-size: 2em;
-	font-family: Oswald, sans-serif;
-	font-weight: 200;
+	font-size: 1.5em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
 }
 
 .wrapper.style1 {
 	background: #20193a;
-	color: rgba(255,255,255,.8);
+	color: rgba(255,255,255,.9);
 }
 
 .wrapper.style1 p {
@@ -2853,7 +2854,7 @@ body {
 }
 #header .logo {
 	color: rgba(0, 0, 0, 0.75);
-	font-family: 'Oswald', serif;
+	font-family: 'Source Sans Pro', serif;
 	font-weight: bold;
 	font-size: 1.25em;
 	letter-spacing: 2px;
@@ -2874,7 +2875,8 @@ body {
 }
 
 .signature h3 {
-	font-family: Oswald, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
 }
 
 #header nav {
@@ -3126,6 +3128,32 @@ body {
 	}
 }
 
+/* Highlights */
+
+.yellowlight {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #f7e799 50%);
+}
+
+.pinklight {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #dd8089 65%);
+}
+
+.peachlight {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #ff9d92 65%);
+}
+
+.bluelight {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #276fa7 65%);
+}
+
+.lightbluelight {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #4c8dc3 65%);
+}
+
+.purplelight {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #403c86 65%);
+}
+
 /* Banner */
 
 #banner {
@@ -3352,12 +3380,12 @@ body {
 			/* Footer */
 
 			#footer {
-				padding: 2em 0 1em 0;
+				padding: 2em 0 .1em 0;
 				background: #20193a;
 				text-align: center;
 				color: rgba(255,255,255, 0.5);
 				font-size: .85em;
-				font-family: Fivo;
+				font-family: 'Source Sans Pro', sans-serif;
 			}
 
 			#footer h2 {
