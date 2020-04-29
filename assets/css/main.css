@@ -3172,21 +3172,6 @@ body {
 
 /* Banner */
 
-#banner {
-	padding: 14em 0 12em 0;
-
-	text-align: center;
-	background-image: url("../../images/cover.png");
-
-	/* Set a specific height */
-	min-height: 500px; 
-
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 	/*	#banner .content {
 			-moz-transition: opacity 1s ease-in-out, -moz-transform 0.75s ease-in-out;

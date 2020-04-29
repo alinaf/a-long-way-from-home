@@ -60,18 +60,19 @@ target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 		newImageElement.setAttribute('src', 'images/header.png');
 		newImageElement.setAttribute('width', '100%');
 		brickPoster.appendChild(newImageElement);
-	} else {
-		var video = document.getElementById('brickVideo');		
-		var source = document.createElement('source');
-		source.setAttribute('src', 'images/header.mp4');
-		source.setAttribute('type', 'video/mp4');
-		video.setAttribute('height', 'auto');
-		video.appendChild(source);
-	}
 
-	var	$window = $(window),
-	$body = $('body'),
-	$header = $('#header');
+} else {
+	var video = document.getElementById('brickVideo');		
+	var source = document.createElement('source');
+	source.setAttribute('src', 'images/header.mp4');
+	source.setAttribute('type', 'video/mp4');
+	video.setAttribute('height', 'auto');
+	video.appendChild(source);
+}
+
+var	$window = $(window),
+$body = $('body'),
+$header = $('#header');
 
 	// Disable animations/transitions until the page has loaded.
 	$body.addClass('is-loading');
@@ -115,4 +116,4 @@ target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 
 });
 
-})(jQuery);
+	})(jQuery);
