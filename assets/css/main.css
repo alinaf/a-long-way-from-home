@@ -2674,6 +2674,12 @@ button:disabled,
 	flex-basis: 48.5%;
 }
 
+
+.flex-item a:hover{ 
+	position: relative; 
+    top: -10px;
+} 
+
 .flex.flex-2 .flex-item.left {
 	text-align: right;
 }
